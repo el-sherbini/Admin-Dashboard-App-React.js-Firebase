@@ -10,3 +10,9 @@ export { default as NotificationsNoneIcon } from "@mui/icons-material/Notificati
 export { default as SettingsSystemDaydreamOutlinedIcon } from "@mui/icons-material/SettingsSystemDaydreamOutlined";
 export { default as PsychologyOutlinedIcon } from "@mui/icons-material/PsychologyOutlined";
 export { default as AccountCircleOutlinedIcon } from "@mui/icons-material/AccountCircleOutlined";
+export { default as SearchOutlinedIcon } from "@mui/icons-material/SearchOutlined";
+export { default as DarkModeOutlinedIcon } from "@mui/icons-material/DarkModeOutlined";
+export { default as FullscreenExitOutlinedIcon } from "@mui/icons-material/FullscreenExitOutlined";
+export { default as NotificationsNoneOutlinedIcon } from "@mui/icons-material/NotificationsNoneOutlined";
+export { default as ChatBubbleOutlineOutlinedIcon } from "@mui/icons-material/ChatBubbleOutlineOutlined";
+export { default as ListOutlinedIcon } from "@mui/icons-material/ListOutlined";
