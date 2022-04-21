@@ -12,7 +12,7 @@ import {
   SettingsSystemDaydreamOutlinedIcon,
   PsychologyOutlinedIcon,
   AccountCircleOutlinedIcon,
-} from "../../icons";
+} from "../../MUI/icons";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {

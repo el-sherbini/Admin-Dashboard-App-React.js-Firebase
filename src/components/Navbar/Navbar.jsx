@@ -6,7 +6,7 @@ import {
   NotificationsNoneOutlinedIcon,
   ChatBubbleOutlineOutlinedIcon,
   ListOutlinedIcon,
-} from "../../icons";
+} from "../../MUI/icons";
 
 const Navbar = () => {
   return (

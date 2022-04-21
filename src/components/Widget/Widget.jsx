@@ -5,7 +5,7 @@ import {
   AccountBalanceWalletOutlinedIcon,
   ShoppingCartOutlinedIcon,
   MonetizationOnOutlinedIcon,
-} from "../../icons";
+} from "../../MUI/icons";
 
 const Widget = ({ type }) => {
   let data;
