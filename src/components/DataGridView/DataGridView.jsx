@@ -43,7 +43,7 @@ const DataGridView = () => {
         </Link>
       </div>
       <DataGrid
-        className="datagrid"
+        className="dataGrid"
         rows={data}
         columns={userColumns.concat(actionColumn)}
         pageSize={9}

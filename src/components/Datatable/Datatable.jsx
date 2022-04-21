@@ -63,7 +63,7 @@ const DataTable = () => {
     },
   ];
   return (
-    <TableContainer component={Paper} className="datatable">
+    <TableContainer component={Paper} className="dataTable">
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
