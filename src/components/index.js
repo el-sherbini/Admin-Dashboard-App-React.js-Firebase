@@ -1,5 +1,5 @@
 export { default as Chart } from "./Chart/Chart";
-export { default as DataGrid } from "./DataGrid/DataGrid";
+export { default as DataGridView } from "./DataGridView/DataGridView";
 export { default as Featured } from "./Featured/Featured";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as Sidebar } from "./Sidebar/Sidebar";
