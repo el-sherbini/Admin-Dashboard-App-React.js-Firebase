@@ -14,7 +14,7 @@ import {
   AccountCircleOutlinedIcon,
 } from "../../MUI/icons";
 import { Link } from "react-router-dom";
-import { DarkModeContext } from "../../context/darkModeContext";
+import { DarkModeContext } from "../../context/DarkModeContext";
 import { useContext } from "react";
 
 const Sidebar = () => {

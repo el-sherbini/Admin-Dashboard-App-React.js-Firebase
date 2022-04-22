@@ -8,7 +8,7 @@ import {
   ListOutlinedIcon,
 } from "../../MUI/icons";
 import { useContext } from "react";
-import { DarkModeContext } from "../../context/darkModeContext";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 const Navbar = () => {
   const { dispatch } = useContext(DarkModeContext);
