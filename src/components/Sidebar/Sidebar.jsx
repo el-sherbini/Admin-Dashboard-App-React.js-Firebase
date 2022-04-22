@@ -13,12 +13,28 @@ import {
   PsychologyOutlinedIcon,
   AccountCircleOutlinedIcon,
 } from "../../MUI/icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { DarkModeContext } from "../../context/DarkModeContext";
+import { AuthContext } from "../../context/AuthContext";
 import { useContext } from "react";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase";
 
 const Sidebar = () => {
   const { dispatch } = useContext(DarkModeContext);
+  const Auth = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const signout = () => {
+    signOut(auth)
+      .then(() => {
+        Auth.dispatch({ type: "LOGOUT" });
+        navigate("/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <div className="sidebar">
@@ -86,7 +102,7 @@ const Sidebar = () => {
             <AccountCircleOutlinedIcon className="icon" />
             <span>Profile</span>
           </li>
-          <li>
+          <li onClick={signout}>
             <ExitToAppIcon className="icon" />
             <span>Logout</span>
           </li>
